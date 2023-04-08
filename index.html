@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Cakes | Sri lanka</title>
+    <link rel="icon" href="./Resources/android-chrome-192x192.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <script src="./script.js"></script>
+
+
+    <nav>
+        <div class="left">
+            <img  class = "logo1" src="./Resources/logo.jpg" alt="">
+        </div>
+
+
+        <div class="right c">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#" onclick="openNav()">Contact</a>
+            <div class="nav_animation"></div>
+        </div>
+    </nav>
+
+
+
+    <section>
+        
+        <div class="content">
+            <h1>Tasty Cakes</h1>
+
+            
+
+
+            <div class="center_content">
+                <div class="box b0">
+                    <div class="box1">
+                        <h2>Cake #122</h2>
+                        <div></div>
+                        <h3>3$</h3>
+
+                    </div>
+                    
+                    <div class="box2">
+                        <div class="input-group">
+                            <h1 class="quantity-field" id="input0">0</h1>
+                            <div class="qq">
+                                <input type="button" value="-" class="button-minus" data-field="quantity" onclick="minus0()">
+                                <input type="button" value="+" class="button-plus" data-field="quantity" onclick="add0()">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box b1">
+                    <div class="box1">
+                        <h2>Cake #12</h2>
+                        <div></div>
+                        <h3>4$</h3>
+
+                    </div>
+
+                    <div class="box2">
+                        <div class="input-group">
+                            <h1 class="quantity-field" id="input1">0</h1>
+                            <div class="qq">
+                                <input type="button" value="-" class="button-minus" data-field="quantity" onclick="minus1()">
+                                <input type="button" value="+" class="button-plus" data-field="quantity" onclick="add1()">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="box b2">
+                    <div class="box1">
+                        <h2>Cake #23</h2>
+                        <div></div>
+                        <h3>6$</h3>
+
+                    </div>
+
+                    <div class="box2">
+                        <div class="input-group">
+                            <h1 class="quantity-field" id="input2">0</h1>
+                            <div class="qq">
+                                <input type="button" value="-" class="button-minus" data-field="quantity" onclick="minus2()">
+                                <input type="button" value="+" class="button-plus" data-field="quantity" onclick="add2()">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="box b3">
+                    <div class="box1">
+                        <h2>Cake #22</h2>
+                        <div></div>
+                        <h3>5$</h3>
+
+                    </div>
+
+                    <div class="box2">
+                        <div class="input-group">
+                            <h1 class="quantity-field" id="input3">0</h1>
+                            <div class="qq">
+                                <input type="button" value="-" class="button-minus" data-field="quantity" onclick="minus3()">
+                                <input type="button" value="+" class="button-plus" data-field="quantity" onclick="add3()">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="box b4">
+                    
+                    <div class="box1">
+                        <h2>Cake #10</h2>
+                        
+                        <div></div>
+                        <h3>4$</h3>
+                        
+                    </div>
+
+                    <div class="box2">
+                        <div class="input-group">
+                            <h1 class="quantity-field" id="input4">0</h1>
+                            <div class="qq">
+                                <input type="button" value="-" class="button-minus" data-field="quantity" onclick="minus4()">
+                                <input type="button" value="+" class="button-plus" data-field="quantity" onclick="add4()">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="info">
+
+                <div>
+
+                    <h1 id = "totlec" >0</h1>
+                    <p>Totle</p>
+
+                </div>
+                <div>
+
+                </div>
+
+                <div class="model">
+                    <button class="btnx" onclick="order()">Order Now</button>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <div class="backdrop" id="backdrop" onclick="clznav()"></div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
